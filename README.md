@@ -1,3 +1,5 @@
+## This is to test build [RiMusic](https://github.com/fast4x/RiMusic) with Kotlin 2.0, but aparently the build process stuck on Task :app:compileFossDebugKotlin.
+
 <div align="center">
   <img src="./assets/design/app_logo.svg" width="300" height="100" />    
   <p><b>RiMusic</b> is a <b>multilingual</b> Android application for streaming music from YouTube Music.</p>
