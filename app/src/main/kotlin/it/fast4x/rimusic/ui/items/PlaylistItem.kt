@@ -237,8 +237,7 @@ fun PlaylistItem(
                 .background(color = colorPalette.background4)
                 .requiredSize(thumbnailSizeDp)
         ) {
-            thumbnailContent(
-                modifier = Modifier
+            thumbnailContent(Modifier
                     .fillMaxSize()
             )
 

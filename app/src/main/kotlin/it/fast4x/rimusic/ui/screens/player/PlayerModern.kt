@@ -1896,8 +1896,7 @@ fun PlayerModern(
                             //.padding(vertical = 10.dp)
                         ) {
                             if ((!isShowingLyrics && !isShowingVisualizer) || (isShowingVisualizer && showvisthumbnail) || (isShowingLyrics && showlyricsthumbnail))
-                                thumbnailContent(
-                                    modifier = Modifier
+                                thumbnailContent(Modifier
                                         .padding(
                                             vertical = playerThumbnailSize.size.dp,
                                             horizontal = playerThumbnailSize.size.dp
@@ -2140,8 +2139,7 @@ fun PlayerModern(
                         }
                     }
                     if (playerType == PlayerType.Essential || isShowingVisualizer) {
-                        controlsContent(
-                            modifier = Modifier
+                        controlsContent(Modifier
                                 .padding(vertical = 8.dp)
                                 .conditional(playerType == PlayerType.Essential) {fillMaxHeight()}
                                 .conditional(playerType == PlayerType.Essential) {weight(1f)}
@@ -2176,8 +2174,7 @@ fun PlayerModern(
                             onDismiss = {}
                         )
                     }
-                    actionsBarContent(
-                        modifier = Modifier
+                    actionsBarContent(Modifier
                     )
                 }
             }
@@ -2485,8 +2482,7 @@ fun PlayerModern(
                                      )
                                  }
                              } else {
-                                 thumbnailContent(
-                                     modifier = Modifier
+                                 thumbnailContent(Modifier
                                          .clip(thumbnailShape)
                                          .padding(
                                              horizontal = playerThumbnailSize.size.dp,
@@ -2609,8 +2605,7 @@ fun PlayerModern(
                 Box(modifier = Modifier
                     .conditional(!expandedplayer){weight(1f)}) {
                     if (playerType == PlayerType.Essential || isShowingLyrics || isShowingVisualizer) {
-                        controlsContent(
-                            modifier = Modifier
+                        controlsContent(Modifier
                                 .padding(vertical = 4.dp)
                                 .fillMaxWidth()
                             //.weight(1f)
@@ -2652,8 +2647,7 @@ fun PlayerModern(
                         onDismiss = {}
                     )
                 }
-                actionsBarContent(
-                    modifier = Modifier
+                actionsBarContent(Modifier
                         .padding(vertical = 10.dp)
                 )
               }

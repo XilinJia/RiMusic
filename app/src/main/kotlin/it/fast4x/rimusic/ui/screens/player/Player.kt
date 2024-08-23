@@ -1231,14 +1231,12 @@ fun Player(
                         .padding(bottom = 10.dp)
                 ) {
 
-                    thumbnailContent(
-                        modifier = Modifier
+                    thumbnailContent(Modifier
                             .padding(horizontal = 10.dp)
                     )
                 }
 
-                controlsContent(
-                    modifier = Modifier
+                controlsContent(Modifier
                         .padding(vertical = 8.dp)
                         .fillMaxHeight()
                         .weight(1f)
@@ -1401,8 +1399,7 @@ fun Player(
                         //.weight(0.5f)
                         .fillMaxHeight(0.55f)
                 ) {
-                    thumbnailContent(
-                        modifier = Modifier
+                    thumbnailContent(Modifier
                             .clip(thumbnailShape)
                             .padding(
                                 horizontal = playerThumbnailSize.size.dp,
@@ -1443,8 +1440,7 @@ fun Player(
 
 
 
-                controlsContent(
-                    modifier = Modifier
+                controlsContent(Modifier
                         .padding(vertical = 4.dp)
                         .fillMaxWidth()
                 )

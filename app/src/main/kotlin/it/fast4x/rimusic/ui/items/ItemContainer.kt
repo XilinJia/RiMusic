@@ -34,8 +34,7 @@ inline fun ItemContainer(
                 .padding(vertical = Dimensions.itemsVerticalPadding, horizontal = 16.dp)
                 .width(thumbnailSizeDp)
         ) {
-            content(
-                centeredMod = Modifier
+            content(Modifier
                     .align(Alignment.CenterHorizontally)
             )
         }
@@ -47,8 +46,7 @@ inline fun ItemContainer(
                 .padding(vertical = Dimensions.itemsVerticalPadding, horizontal = 16.dp)
                 .fillMaxWidth()
         ) {
-            content(
-                centeredMod = Modifier
+            content(Modifier
                     .align(Alignment.CenterVertically)
             )
         }
